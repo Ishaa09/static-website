@@ -2,13 +2,13 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Kumb Sans', sans-serif;
+    font-family: "Copperplate";
     scroll-behavior: smooth;
 }
 
 .navbar {
     background: #131313;
-    height: 80px;
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +21,7 @@
 .navbar__container {
     display: flex;
     justify-content: space-between;
-    height: 80px;
+    height: 90px;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -30,8 +30,8 @@
 }
 
 #navbar__logo {
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-color: #DD2476;
+    background-image: linear-gradient(to top, #FF512F 0%, #DD2476 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -41,7 +41,7 @@
     align-items: center;
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .navbar__menu {
@@ -85,8 +85,8 @@
     outline: none;
     border-radius: 4px;
     background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: -webkit-linear-gradient(to right, #FF512F, #DD2476 );
+    background: linear-gradient(to right,#FF512F,#DD2476 );
     color: #fff;
     transition: all 0.3s ease;
 }
@@ -124,7 +124,7 @@
         transition: all 0.5s ease;
         z-index: 99;
         height: 60vh;
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     #navbar__logo {
         padding-left: 25px
@@ -205,9 +205,9 @@
 }
 
 .hero__heading span {
-    background: #ee0979;
-    background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
-    background: linear-gradient(to right, #ff6a00, #ee0979);
+    background: #FF512F;
+    background: -webkit-linear-gradient(to right,#FF512F, #DD2476);
+    background: linear-gradient(to right, #FF512F, #DD2476 );
     /* convert box gradient into text */
     background-size: 100%;
     -webkit-background-clip: text;
@@ -219,9 +219,9 @@
 
 .hero__description {
     font-size: 60px;
-    background: #da22ff;
-    background: -webkit-linear-gradient(to right, #9114ff, #da22ff);
-    background: linear-gradient(to right, #8f0eff, #da22ff);
+    background: #4286f4;
+    background: -webkit-linear-gradient(to right, #3864ca, #4286f4);
+    background: linear-gradient(to right, #3864ca, #4286f4 );
     /* convert box gradient into text */
     background-size: 100%;
     -webkit-background-clip: text;
@@ -303,9 +303,9 @@
 .main__btn {
     margin-top: 2rem;
     font-size: 1.8rem;
-    background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: #ff6a00;
+    background: -webkit-linear-gradient(to right, #ee0979,#ff6a00);
+    background: linear-gradient(to right,#ee0979,#ff6a00  );
     padding: 20px 60px;
     border: none;
     border-radius: 4px;
@@ -330,7 +330,7 @@
     left: 0;
     width: 0;
     height: 100%;
-    background: #ff1ead;
+    background: #1F1C18;
     transition: all 0.35s;
     border-radius: 4px;
 }
@@ -356,7 +356,7 @@
     flex-direction: column;
     justify-content: center;
     color: #fff;
-    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    background-image: linear-gradient(to right, #642B73 0%, #C6426E 100%);
 }
 
 .fa-laptop-code {
@@ -364,9 +364,9 @@
 }
 
 #card-2 {
-    background: #ff512f;
-    background: -webkit-linear-gradient(to right, #dd2476, #ff512f);
-    background: linear-gradient(to right, #dd2476, #ff512f);
+    background: #DD2476;
+    background: -webkit-linear-gradient(to right, #FF512F, #DD2476);
+    background: linear-gradient(to right, #FF512F, #DD2476);
 }
 
 /* Mobile Responsive */
