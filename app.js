@@ -67,8 +67,10 @@ navLogo.addEventListener('click', hideMobileMenu);
 
 const saveLead = async () => {
 
+    
     let clientName = document.getElementById("recipient-name").value
     let mobile = document.getElementById("mobile").value
+    
 
 
     // let response = await fetch('http://localhost:8080/lead/getLeads');
@@ -84,8 +86,10 @@ const saveLead = async () => {
             mobile: mobile
         })
     })
-    console.log(response2);
-    console.log(response);
+
+    document.getElementById('myForm').requestFullscreen();    
+    $('#exampleModalCenter').modal('toggle');
+    $('#exampleModal').modal('toggle');
 
 }
 
